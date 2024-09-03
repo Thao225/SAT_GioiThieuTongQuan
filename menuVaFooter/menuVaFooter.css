@@ -8,6 +8,9 @@
 }
 
 /*Thanh menu*/
+#menuRutGon{
+    display: none;
+}
 header{
     z-index: 1;
     position: fixed;
