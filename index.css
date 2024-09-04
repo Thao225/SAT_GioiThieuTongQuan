@@ -21,6 +21,7 @@ section{
 }
 a{
     cursor: pointer;
+    text-decoration: none;
 }
 .coSos{
     width: 100%;
