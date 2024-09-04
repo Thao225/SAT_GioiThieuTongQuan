@@ -9,17 +9,21 @@ window.onscroll = function() {
     closemenu.onclick = function () {
         thanhMenu.style.display="none";
     }
-
-
+}
+window.onload = function(){
     let coMucLucs=document.querySelectorAll(".coMucLuc");
-    let thongTinTQs=document.querySelectorAll(".thongTinTQ");
+    let thongTinTQs=document.querySelectorAll("nav.thongTinTQ");
     for (let i = 0; i < coMucLucs.length; i++) {
-        coMucLucs[i].onmouseenter=function(){
-            thongTinTQs[i].style.display="flex";
-            thongTinTQs[i].onmouseleave=function(){
-                thongTinTQs[i].style.display="none";
+        coMucLucs[i].onclick=function(){
+            if (thongTinTQs[i].classList.contains("haha")) {
+                thongTinTQs[i].classList.remove("haha");
+            }
+            else
+            {
+                thongTinTQs[i].classList.add("haha");
             }
         }
         
     }
+
 }

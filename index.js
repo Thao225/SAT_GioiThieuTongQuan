@@ -10,51 +10,6 @@ window.onload=function(){
   }
   )
   wow.init();
-  // let khoas=document.querySelectorAll(".truo")
-  // let truong=document.querySelector(".truongs .truong");
-  // let coSos=document.querySelectorAll(".truongs .truong .coSos");
-  // let nutChuyens=document.querySelectorAll(".truongs .nutchuyen li");
-  // let trai=document.getElementById("muiChuyenTrai");
-  // let phai=document.getElementById("muiChuyenPhai");
-  // let nut=0;
-  // let doDai=coSos.length-1;
-  // function taiLaiCoSo(){
-  //   let ktrTrai=coSos[nut].offsetLeft;
-  //   truong.style.right= `${-ktrTrai}px`;
-  //   let nutCuoi=document.querySelector(".truongs .nutChuyen li.nut");
-  //   nutCuoi.classList.remove('nut');
-  //   nutChuyens[nut].classList.add('nut');
-  //   clearInterval(taiLai);
-  //   taiLai= setInterval(()=>{phai.click()},5000)
-  // }
-
-  // phai.onclick=function(){
-  //   if(nut+1>doDai)
-  //   {
-  //     nut=0;
-  //   }
-  //   else{
-  //     nut+=1;
-  //   }
-  //   taiLaiCoSo();
-  // }
-  // trai.onclick=function(){
-  //   if(nut-1<0){
-  //     nut=doDai;
-  //   }
-  //   else{
-  //     nut=nut-1;
-  //   }
-  //   taiLaiCoSo();
-  // }
-  // let taiLai=setInterval(()=>{phai.click()},5000);
-
-  // nutChuyens.forEach((li,key)=>{
-  //   li.addEventListener('click',function(){
-  //     nut=key;
-  //     taiLaiCoSo();
-  //   })
-  // })
 
 
 

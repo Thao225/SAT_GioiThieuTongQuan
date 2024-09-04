@@ -38,10 +38,15 @@ a:hover{
     margin: 1rem 1rem;
 }
 .thongTinTQ{
-    display: flex;
     background-color: #31294C;
     width: 100%;
+    display: flex;
+}
+.haha{
     display: none;
+}
+.huhu{
+    display: flex;
 }
 
 .tungKhoaTQs a{
@@ -127,8 +132,15 @@ a:hover{
 #main{
     margin-top: 0;
 }
-
-
+#chuongTrinhHi>li{
+    padding: 1rem 3rem;
+    font-weight: bold;
+}
+#chuongTrinhHi li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #b9a2d8;
+}
 
 
 
