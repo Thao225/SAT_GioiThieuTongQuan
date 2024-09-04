@@ -41,6 +41,7 @@ a:hover{
     display: flex;
     background-color: #31294C;
     width: 100%;
+    display: none;
 }
 
 .tungKhoaTQs a{
@@ -71,7 +72,8 @@ a:hover{
     margin-left: 5rem;
 }
 .anhQuangCao>img{
-    width: 100%;
+    width: 275px;
+    height: 250px;
 }
 .anhQuangCao{
     color: white;
@@ -86,9 +88,6 @@ a:hover{
 }
 .ghiChuQC{
     padding: 0 1rem ;
-}
-.chuan{
-    display: none;
 }
 .CLCTQs{
     height: 500px;
@@ -106,11 +105,16 @@ a:hover{
 .CLCTQs a{
     font-size: 18px;
 }
-
-
-
-
-
+.menuTongQuat{
+    display: flex;
+    width: 100%;
+}
+.coMucLuc:hover{
+    background-color: #b9a2d8;
+}
+.coMucLuc>a:hover{
+    color: #25355a !important;
+}
 
 
 
