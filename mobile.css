@@ -3,6 +3,21 @@
 }
 
 @media screen and (max-width: 768px){
+    #logoTruong{
+        width: 500px !important;
+    }
+    #menuRutGon{
+        padding: 0;
+    }
+    .chuyenCard button{
+        top: -50%;
+    }
+    .hinhCoSo{
+        width: 55%;
+    }
+    span.tenKhoa{
+        font-size: 10px;
+    }
 
 }
 

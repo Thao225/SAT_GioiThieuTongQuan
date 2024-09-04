@@ -345,7 +345,9 @@ footer a{
     text-align: center;
     margin-bottom: 2rem;
 }
-
+.tieuCT{
+    color: #da18dd;
+}
 
 
 
@@ -483,6 +485,15 @@ footer a{
     }
     div.logoTruongs{
         padding-left: 1rem;
+    }
+    .phanGiua{
+        display: block;
+    }
+    .noidungFooters{
+        width: 100% !important;
+    }
+    .phanCuoi>span{
+        font-size: 15px;
     }
 }
 

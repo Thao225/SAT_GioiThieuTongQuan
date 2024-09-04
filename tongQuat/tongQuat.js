@@ -1,16 +1,14 @@
-window.onscroll = function() {
-    // Menu with 768
-    let btn=document.querySelector("#menuRutGon>i");
-    let thanhMenu = document.querySelector("nav.mucLucs");
-    btn.onclick = function () {
-        thanhMenu.style.display="block";
-    }
-    let closemenu = document.getElementById("closeMenu");
-    closemenu.onclick = function () {
-        thanhMenu.style.display="none";
-    }
-}
 window.onload = function(){
+    let btn=document.querySelector("#menuRutGon>i")
+    let thanhMenu = document.querySelector("nav.mucLucs")
+    btn.onclick = function () {
+        thanhMenu.style.display="block"
+    }
+    let closemenu = document.getElementById("closeMenu")
+    closemenu.onclick = function () {
+        thanhMenu.style.display="none"
+    }
+    
     let coMucLucs=document.querySelectorAll(".coMucLuc");
     let thongTinTQs=document.querySelectorAll("nav.thongTinTQ");
     for (let i = 0; i < coMucLucs.length; i++) {

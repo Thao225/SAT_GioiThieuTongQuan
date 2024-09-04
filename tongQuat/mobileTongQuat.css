@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+    .chuongTrinhs{
+        display: none;
+    }
+    #logoTruong{
+        width: 400px !important;
+    }
+    .tenNganhDB{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .chuongTrinhs{
+        display: none;
+    }
+    #logoTruong{
+        width: 250px !important;
+    }
+    #menuRutGon{
+        padding: 0;
+    }
+    .thucnghiem>h1{
+        font-size: 20px;
+    }
+    .backgroundTruongTQ{
+        height: 100%;
+    }
+    .khoa h1, .nganhDacBiet h1{
+        font-size: 12px;
+    }
+    .khoa p, .nganhDacBiet p{
+        font-size: 9px;
+    }
+    .wapper > .khoa > a {
+        height: 100px;
+    }
+    .wapper > .nganhDacBiet > a {
+        height: 150px;
+    }
+    .wapper {
+        padding-bottom: 0;
+    }
+    #nganhDacBiet {
+        margin-top: 100px;
+    }
+    .tieuCT{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+}
