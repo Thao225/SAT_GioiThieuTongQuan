@@ -16,11 +16,9 @@ window.onscroll = function() {
     for (let i = 0; i < coMucLucs.length; i++) {
         coMucLucs[i].onmouseenter=function(){
             thongTinTQs[i].style.display="flex";
-            thongTinTQs[i].addEventListener('animate__animated','animate__fadeInDown');
-        }
-        coMucLucs[i].onmouseleave=function(){
-            thongTinTQs[i].style.display="none";
-            thongTinTQs[i].addEventListener('animate__animated','animate__fadeInUp');
+            thongTinTQs[i].onmouseleave=function(){
+                thongTinTQs[i].style.display="none";
+            }
         }
         
     }
