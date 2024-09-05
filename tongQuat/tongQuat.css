@@ -112,7 +112,10 @@ a:hover{
 }
 .menuTongQuat{
     display: flex;
-    width: 100%;
+    width: 200%;
+}
+.thongTinTQ:nth-child(2){
+    position: absolute;
 }
 .coMucLuc:hover{
     background-color: #b9a2d8;
